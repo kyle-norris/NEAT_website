@@ -14,6 +14,8 @@ module.exports = {
       colors: {},
     },
   },
-  variants: {},
+  variants: {
+    animation: ["motion-safe"]
+  },
   plugins: [require("@tailwindcss/typography")],
 };
