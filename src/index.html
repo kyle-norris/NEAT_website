@@ -1,22 +1,29 @@
 ---
 layout: default
-title: Neat Starter
+title: Home
 path: home
 ---
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+<div
+  class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
+>
   <h1>
-    Welcome to
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
+    KYLE
+    <strong
+      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
+    >
+      NORRIS
     </strong>
   </h1>
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
-  </p>
+  <h3>Front End Web Developer</h3>
 
-  {% include "./_includes/partials/content.html" %}
+  <a
+    class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mt-20 cursor-pointer"
+    href="/projects"
+  >
+    See Projects
+  </a>
+
+  {# {% include "./_includes/partials/content.html" %} #}
 </div>
