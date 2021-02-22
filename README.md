@@ -12,3 +12,10 @@ This is a repo for my blog built with the NEAT stack (**N**etlify CMS, **E**leve
 - [Eleventy](https://www.11ty.dev/)
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+### How to run:
+"npm run start"
+
+### To use the admin site:
+In a separate terminal, run: 
+"npx netlify-cms-proxy-server"

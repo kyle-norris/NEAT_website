@@ -4,7 +4,9 @@ description: First Post
 author: Kyle Norris
 date: 2021-02-21T20:19:09.197Z
 tags:
-  - Tags
+  - WebDev
+  - Javascript
+  - Thoughts
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id est diam. Sed ullamcorper ipsum sapien, at volutpat mi convallis nec. Vestibulum porttitor tellus est, vitae scelerisque erat mollis eget. Integer congue non ante eu ornare. Sed condimentum odio tellus, id ullamcorper massa tempor at. Nulla facilisi. Etiam quis euismod ante. Aenean sollicitudin iaculis viverra. Ut egestas dapibus erat, eu aliquam massa tincidunt a. Morbi non nibh metus. Praesent elementum mi at ornare bibendum. Duis eu pulvinar dui. Integer malesuada, dui vitae tempus elementum, nisl neque sodales odio, non euismod quam dolor vitae diam.
 

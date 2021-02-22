@@ -1,11 +1,11 @@
----
 work:
   - title: Pomodoro Timer
-    url: "https://kyle-norris.github.io/website_pomodoro/"
-    githuburl: "https://github.com/kyle-norris/website_pomodoro"
+    url: https://kyle-norris.github.io/website_pomodoro/
+    githuburl: https://github.com/kyle-norris/website_pomodoro
     desc: A visually appealing timer to improve productivity.
-
+    image: /static/img/pomodoro.jpg
   - title: LoopStudios Landing Page
-    url: "https://kyle-norris.github.io/website_loopstudios/"
-    githuburl: "https://github.com/kyle-norris/website_loopstudios"
-    desc: Eleventy is a simpler static site generator.
+    url: https://kyle-norris.github.io/website_loopstudios/
+    githuburl: https://github.com/kyle-norris/website_loopstudios
+    desc: My solution to a FrontendMentor.io challenge.
+    image: /static/img/loopstudios.jpg

@@ -24,12 +24,7 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
+      - { label: "Tags", name: "tags", widget: "list"}
   - label: "Settings"
     name: "settings"
     editor:
@@ -57,7 +52,7 @@ collections:
       - label: "Projects"
         name: "projects"
         file: "src/_data/projects.yaml"
-        fields: 
+        fields:
           - label: projects
             name: work
             widget: list
@@ -66,5 +61,6 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
-              - { label: Github URL, name: githuburl, widget: string}
-              - { label: Description, name: desc, widget: string } 
+              - { label: Github URL, name: githuburl, widget: string }
+              - { label: Description, name: desc, widget: string }
+              - { label: Image, name: image, widget: image }
