@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: {
     mode: "all",
@@ -10,9 +12,10 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {
-      colors: {},
-    },
+    // colors: {
+    //   transparent: 'transparent',
+    //   teal: colors.teal,
+    // },
   },
   variants: {
     animation: ["motion-safe"]
