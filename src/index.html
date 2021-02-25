@@ -5,25 +5,23 @@ path: home
 ---
 
 <div
-  class="container mx-auto lg:h-screen flex flex-col justify-center items-center mt-48 lg:mt-0"
+  class="container mx-auto lg:h-screen flex flex-col lg:flex-row justify-start items-center mt-48 lg:mt-0 gap-20"
 >
-  <h1>
-    KYLE
-    <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
-    >
-      NORRIS
-    </strong>
-  </h1>
+  <div class="flex flex-col">
+    <h1 class="lg:text-left">
+      KYLE
+      <strong
+        class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
+      >
+        NORRIS
+      </strong>
+    </h1>
+    <h3 class="lg:text-left">Front End Web Developer</h3>
+    <a class="basicButton w-40 text-center m-auto" href="#projects"> See Projects </a>
+  </div>
+  <img src="/static/img/home_pic.png" alt="Absurd Illustration" class="w-1/3">
 
-  <h3>Front End Web Developer</h3>
-
-  <a
-    class="basicButton"
-    href="#projects"
-  >
-    See Projects
-  </a>
+  
 </div>
 
 <div id="projects" class="container h-screen flex flex-col items-center py-20">
