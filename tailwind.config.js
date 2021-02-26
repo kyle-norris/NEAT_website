@@ -16,6 +16,17 @@ module.exports = {
       fontFamily: {
         arch: ["Architects Daughter", "sans-serif"],
       },
+      fontSize: {
+        '10xl': '10rem',
+      },
+    },
+    colors: {
+      orange: colors.orange,
+      blue: colors.blue,
+      white: colors.white,
+      gray: colors.gray,
+      black: colors.black,
+      transparent: 'transparent',
     },
   },
   variants: {
