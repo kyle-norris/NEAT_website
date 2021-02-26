@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: {
@@ -12,13 +12,14 @@ module.exports = {
     container: {
       center: true,
     },
-    // colors: {
-    //   transparent: 'transparent',
-    //   teal: colors.teal,
-    // },
+    extend: {
+      fontFamily: {
+        arch: ["Architects Daughter", "sans-serif"],
+      },
+    },
   },
   variants: {
-    animation: ["motion-safe"]
+    animation: ["motion-safe"],
   },
   plugins: [require("@tailwindcss/typography")],
 };

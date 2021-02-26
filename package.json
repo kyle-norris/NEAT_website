@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "eleventy-google-fonts": "0.0.5",
     "postcss": "^8.2.1"
   }
 }
