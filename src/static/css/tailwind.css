@@ -6,15 +6,15 @@
 
 @layer base {
   h1 {
-    @apply text-7xl mb-3 text-center md:text-7xl lg:text-9xl xl:text-10xl;
+    @apply text-6xl mb-3 text-center sm:text-7xl lg:text-8xl font-audio;
   }
 
   h2 {
-    @apply text-2xl mb-3 text-center lg:text-3xl;
+    @apply text-2xl mb-3 text-center lg:text-4xl font-sans;
   }
 
   h3 {
-    @apply text-2xl mb-3 text-center lg:text-4xl;
+    @apply text-2xl mb-3 text-center lg:text-2xl font-sans;
   }
 
   html {

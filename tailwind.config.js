@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         arch: ["Architects Daughter", "sans-serif"],
+        audio: ["Audiowide", "sans-serif"],
       },
       fontSize: {
         '10xl': '10rem',

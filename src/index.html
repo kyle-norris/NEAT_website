@@ -5,20 +5,20 @@ path: home
 ---
 
 <div
-  class="container mx-auto lg:h-screen flex flex-col lg:flex-row justify-start items-center mt-24 lg:mt-10 lg:gap-0 gap-10 p-20"
+  class="container items-center p-20"
 >
-  <div class="flex flex-col lg:w-1/2">
-    <h1 class="lg:text-left font-arch text-gray-800">
-      Kyle<br>Norris
+  <div class="flex flex-col">
+    <h1 class="text-gray-800 mb-4">
+      Kyle Norris
     </h1>
-    <h3 class="lg:text-left font-arch text-gray-800">Web Developer</h3>
+    <h3 class="text-gray-800">Web Developer, Engineer, etc.</h3>
   </div>
-  
-  <img src="/static/img/home_pic.png" alt="Absurd Illustration" class="lg:w-1/2 lg:p-10 w-2/3">
 
   
 </div>
 
-<div id="projects" class="container h-screen flex flex-col items-center py-20">
+<h2 class="mb-5">Recent Projects</h2>
+<hr class="w-4/6 mx-auto mb-10">
+<div id="projects" class="container justify-center items-center mb-20">
   {% include "./_includes/partials/projects.html" %}
 </div>

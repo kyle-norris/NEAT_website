@@ -25,6 +25,23 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list"}
+      
+
+  - label: "Projects"
+    name: "projects"
+    folder: "src/projects"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: URL, name: url, widget: string }
+      - { label: Github URL, name: githuburl, widget: string }
+      - { label: Description, name: desc, widget: string }
+      - { label: Image, name: image, widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
   - label: "Settings"
     name: "settings"
     editor:
@@ -49,18 +66,4 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
-      - label: "Projects"
-        name: "projects"
-        file: "src/_data/projects.yaml"
-        fields:
-          - label: projects
-            name: work
-            widget: list
-            allow_add: true
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Github URL, name: githuburl, widget: string }
-              - { label: Description, name: desc, widget: string }
-              - { label: Image, name: image, widget: image }
+         
