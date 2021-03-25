@@ -1,7 +1,7 @@
 <div class="w-full px-12 flex flex-wrap gap-5 justify-center">
   {% set projects = collections.projects %} {% for project in projects %}
   <div
-    class="p-7 rounded-lg transition ease-in-out flex flex-col cursor-pointer max-w-xs"
+    class="p-7 rounded-lg transition ease-in-out flex flex-col max-w-xs"
   >
     <div class="relative flex flex-col w-full">
       <a href="{{project.url}}" class="relative max-w-xs cursor-pointer">
@@ -12,7 +12,7 @@
         <img
           src="{{project.data.image}}"
           alt="Project Image"
-          class="rounded-lg self-center shadow-lg"
+          class="rounded-lg self-center shadow-lg w-full"
         />
         
       </a>

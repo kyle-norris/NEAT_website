@@ -5,6 +5,7 @@ author: Kyle Norris
 date: 2021-03-23T23:26:09.668Z
 tags:
   - Meta
+thumbnail: /static/img/loopstudios.jpg
 ---
 I'm baby lomo tote bag blog tumeric hell of poutine. Intelligentsia next level succulents kitsch, affogato church-key snackwave flexitarian coloring book cliche you probably haven't heard of them bespoke chartreuse banjo. Gochujang pop-up kitsch poke swag pok pok farm-to-table kogi keytar blue bottle iceland celiac butcher mustache. Brunch church-key vexillologist literally four dollar toast chia, craft beer bespoke banh mi sartorial raclette direct trade green juice polaroid franzen. Fashion axe sartorial paleo, distillery crucifix narwhal celiac letterpress artisan flannel put a bird on it viral biodiesel flexitarian. Freegan crucifix tbh irony portland, actually tattooed hell of poke lomo succulents trust fund street art enamel pin fingerstache.
 
