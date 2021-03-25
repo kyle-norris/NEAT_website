@@ -1,21 +1,26 @@
 <div class="w-full px-12 flex flex-wrap gap-5 justify-center">
-
-  {% set projects = collections.projects %}
-  {% for project in projects %}
-  <a
-    class="p-7 border rounded-lg border-gray-200 bg-gray-100 hover:bg-blue-300 transition ease-in-out flex flex-col cursor-pointer"
-    href={{ project.url }}
+  {% set projects = collections.projects %} {% for project in projects %}
+  <div
+    class="p-7 rounded-lg transition ease-in-out flex flex-col cursor-pointer max-w-xs"
   >
-  <img
-      src="{{project.data.image}}"
-      alt="Project Image"
-      class="rounded-lg self-center max-w-sm"
-    />
-    <div class="flex flex-col w-full">
-      <h2 class="">{{project.data.title}}</h2>
+    <div class="relative flex flex-col w-full">
+      <a href="{{project.url}}" class="relative max-w-xs cursor-pointer">
+        <div class="hover:opacity-50 absolute h-full w-full bg-black top-0 left-0 rounded-lg opacity-0 flex justify-center items-center transition-all ease-in-out">
+          <i class="fas fa-eye fa-3x" style="color:white"></i>
+        </div>
+        
+        <img
+          src="{{project.data.image}}"
+          alt="Project Image"
+          class="rounded-lg self-center shadow-lg"
+        />
+        
+      </a>
+
+      <h3 class="mt-2">{{project.data.title}}</h3>
+
       <p class="text-center">{{project.data.desc}}</p>
     </div>
-    
-  </a>
+  </div>
   {% endfor %}
 </div>

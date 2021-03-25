@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         arch: ["Architects Daughter", "sans-serif"],
         audio: ["Audiowide", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
       fontSize: {
         '10xl': '10rem',
